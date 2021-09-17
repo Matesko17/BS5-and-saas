@@ -1,0 +1,35 @@
+{
+  "name": "bs5-and-saas",
+  "version": "1.0.0",
+  "description": "Learning bootstrap v5 with saas",
+  "main": "index.js",
+  "scripts": {
+    "compile:saas": "sass --watch scss:assets/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Matesko17/BS5-and-saas.git"
+  },
+  "keywords": [
+    "Bootstrap",
+    "bootstrap-v5",
+    "saas",
+    "learn-bootstrap",
+    "learn-saas"
+  ],
+  "author": "Martin Kovac",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Matesko17/BS5-and-saas/issues"
+  },
+  "homepage": "https://github.com/Matesko17/BS5-and-saas#readme",
+  "devDependencies": {
+    "sass": "^1.41.1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "autoprefixer": "^10.3.4",
+    "bootstrap": "^5.1.1",
+    "postcss-cli": "^8.3.1"
+  }
+}
